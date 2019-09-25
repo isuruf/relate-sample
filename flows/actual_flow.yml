@@ -1,8 +1,5 @@
-{% set field1="qwe" %}
-{% set field2="4" %}
-
 {% from "yaml-macros.yml" import indented_include %}
 
 {% with field1="qwe", field2="4" %}
-{{ include "flows/templated_flow.jinja" }}
+{% include "flows/templated_flow.jinja" %}
 {% endwith %}
