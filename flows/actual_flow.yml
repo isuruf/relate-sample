@@ -3,4 +3,6 @@
 
 {% from "yaml-macros.yml" import indented_include %}
 
-{{ indented_include("flows/templated_flow.jinja", 8) }}
+{% with field1="qwe" field2="4" %}
+{{ include "flows/templated_flow.jinja" }}
+{% endwith %}
