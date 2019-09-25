@@ -1,0 +1,4 @@
+{% set field1="qwe" %}
+{% from "yaml-macros.yml" import indented_include %}
+
+{{ indented_include("flows/templated_flow.jinja", 8) }}
