@@ -11,15 +11,18 @@ fields:
   - id: field0
     type: Text
     default: "(a)"
+    label: "Input a text"
 
   - id: field1
     type: Integer
     default: True
+    label: "Input an integer"
 
   - id: field2
     type: Choice
     choices:
      - B
      - ~DEFAULT~ A
+    label: "Choose from a list of choices"
 
 template: "flows/instant_template.tmpl"
