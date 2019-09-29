@@ -1,4 +1,4 @@
-description: "Create an instant flow with one multiple choice questions"
+description: "Create an instant flow with one multiple choice question"
 fields:
   - id: field0
     type: Text
