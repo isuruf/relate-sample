@@ -18,7 +18,7 @@ fields:
 
   - id: field2
     type: Choice
-    values:
+    choices:
      - ~DEFAULT~ A
      - B
 
