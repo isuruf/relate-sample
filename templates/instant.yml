@@ -1,0 +1,17 @@
+id: instant0
+fields:
+  - id: field0
+    type: Text
+    default: "(a)"
+
+  - id: field1
+    type: Integer
+    default: True
+
+  - id: field2
+    type: Choice
+    values:
+     - ~DEFAULT~ A
+     - B
+
+template: "flows/instant_template.tmpl"
