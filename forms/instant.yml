@@ -19,7 +19,7 @@ fields:
   - id: field2
     type: Choice
     choices:
-     - ~DEFAULT~ A
      - B
+     - ~DEFAULT~ A
 
 template: "flows/instant_template.tmpl"
