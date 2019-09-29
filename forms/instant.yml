@@ -1,4 +1,12 @@
-description: "Create an instant flow with one multiple choice question"
+title: "Create an instant flow with one multiple choice question"
+
+description: |
+  Instructions on filling out this form
+
+type: flow
+
+access_roles: [ta, instructor]
+
 fields:
   - id: field0
     type: Text
