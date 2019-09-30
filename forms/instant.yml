@@ -27,7 +27,7 @@ fields:
 
   - id: template_in
     type: Hidden
-    value: "flows/instant_template.tmpl"
+    value: "flows/instant_flow.jinja"
 
   - id: template_out
     type: Hidden
