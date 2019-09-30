@@ -10,8 +10,8 @@ access_roles: [ta, instructor]
 fields:
   - id: field0
     type: Text
-    value: "(a)"
-    label: "Input a text"
+    value: "20 mins"
+    label: "Duration for the flow"
 
   - id: field1
     type: Integer

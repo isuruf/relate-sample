@@ -23,12 +23,16 @@ rules:
         message: "Welcome! This message is brought to you by the access rules."
         permissions: [view, submit_answer, end_session, see_correctness, see_answer_after_submission]
 
-    grade_identifier: la_quiz2_{{field1}}
+    grade_identifier: la_quiz2_{{ id }}
     grade_aggregation_strategy: use_latest
 
     grading:
     -
-        credit_percent: 100
+      if_completed_before: {{ creation_time }} + {{ duration }}
+      credit_percent: 100
+
+    -
+      credit_percent: 0
 
 pages:
   -
@@ -38,7 +42,7 @@ pages:
     prompt: |
       # A half
       What's a half?
-      {{ field1 }}
+      {{ field2 }}
 
     answers:
           - type: float
