@@ -8,7 +8,7 @@ type: flow
 access_roles: [ta, instructor]
 
 fields:
-  - id: field0
+  - id: duration
     type: Text
     value: "20 mins"
     label: "Duration for the flow"
