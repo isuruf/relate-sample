@@ -10,12 +10,12 @@ access_roles: [ta, instructor]
 fields:
   - id: field0
     type: Text
-    default: "(a)"
+    value: "(a)"
     label: "Input a text"
 
   - id: field1
     type: Integer
-    default: True
+    value: True
     label: "Input an integer"
 
   - id: field2
@@ -25,4 +25,14 @@ fields:
      - ~DEFAULT~ A
     label: "Choose from a list of choices"
 
-template: "flows/instant_template.tmpl"
+  - id: template_in
+    type: Hidden
+    value: "flows/instant_template.tmpl"
+
+  - id: template_out
+    type: Hidden
+    value: "flows/instant_flow.yml"
+
+  - id: notify
+    type: Hidden
+    value: True
