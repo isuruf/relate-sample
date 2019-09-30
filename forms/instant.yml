@@ -33,6 +33,6 @@ fields:
     type: Hidden
     value: "flows/instant_flow.yml"
 
-  - id: notify
+  - id: announce
     type: Hidden
     value: True
